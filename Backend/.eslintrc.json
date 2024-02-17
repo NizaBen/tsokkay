@@ -1,0 +1,39 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 8,
+        "sourceType": "commonjs"
+    },
+    "extends": [
+        "eslint:recommended",
+        "prettier"
+    ],
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "no-console": "off",
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            2,
+            "always"
+        ],
+        "indent": [
+            "error",
+            2
+        ],
+        "no-multi-spaces": [
+            "error"
+        ],
+        "no-unused-vars": [
+            "error",
+            {
+                "vars": "all",
+                "args": "after-used",
+                "ignoreRestSiblings": false
+            }
+        ]
+    }
+}
